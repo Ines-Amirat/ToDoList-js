@@ -1,0 +1,127 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#principal {
+    background-color: rgb(245, 245, 245);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/background.jpeg) no-repeat;
+    background-size: cover; /* Makes the image cover the entire element */
+    background-position: center; /* Centers the image */
+}
+
+#h1 {
+   
+    text-align: center;
+    color: rgb(49, 18, 66);
+    font-size: 30px;
+   
+
+}
+
+#center {
+    background-color: rgb(245, 222, 253);
+    width: 30%;
+    box-shadow: 0px 3px 15px rgb(73, 44, 90);
+    
+
+
+
+}
+
+#EnterTask {
+    width: 80%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 3%;
+    overflow-y: auto;
+    background: transparent;
+    border-radius: 30px;
+    outline: none;
+    color: rgb(71, 23, 88);
+    font-size: 16px;
+    border: 2px solid;
+    border-color: rgb(68, 33, 100);
+
+}
+
+#EnterTask:hover {
+    box-shadow: 0px 3px 15px rgb(181, 156, 209);
+}
+
+#Add {
+    float: right;
+    margin-right: 19px;
+    margin-top: 3%;
+    width: 9%;
+    height: 35px;
+    border-radius: 20%;
+    border: none;
+    background-color: rgb(100, 33, 163);
+    color: aliceblue;
+    font-size: 15px;
+}
+
+#Add:hover {
+    box-shadow: 0px 3px 15px rgb(43, 10, 82);
+}
+
+#TaskInfo {
+    background-color: rgb(255, 255, 255);
+    margin-left: 3%;
+    background: transparent;
+
+
+
+}
+
+#Task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    padding-right: 0%;
+    padding: 20px;
+    position: relative;
+   
+
+}
+
+#Task:hover {
+    box-shadow: 0px 3px 15px rgb(98, 52, 107);
+}
+
+
+
+#tasks {
+    padding: 20px;
+}
+
+
+.button {
+    border: none;
+}
+
+.button:hover {
+    box-shadow: 0px 3px 15px rgb(43, 10, 82);
+}
+
+.material-symbols-outlined {
+    color: rgb(134, 67, 189);
+
+}
+
+.title {
+    color: rgb(0, 0, 0);
+}
+
+.completed {
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(138, 136, 136);
+    color: rgb(170, 166, 166);
+
+}
